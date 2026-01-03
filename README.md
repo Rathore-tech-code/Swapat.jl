@@ -2,6 +2,20 @@
 
 A small interface package providing `swapat!` for `AbstractArray`s.
 
+## Status
+
+This package is experimental and intended for benchmarking and API exploration
+around `swapat!`, rather than as a production dependency.
+
+### Performance note
+
+Simple benchmarks indicate that `swapat!` can be slightly faster than
+the common manual swap pattern
+
+```julia
+A[i], A[j] = A[j], A[i]
+
+
 ## Motivation
 
 This package grew out of a discussion around adding a small utility
