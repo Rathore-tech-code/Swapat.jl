@@ -1,0 +1,11 @@
+name = "Swapat"
+uuid = "df9d70d0-261d-4974-a315-9bd8464939ac"
+version = "0.1.0"
+authors = ["Rathore-tech-code <tanishqrathore55@gmail.com>"]
+
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
