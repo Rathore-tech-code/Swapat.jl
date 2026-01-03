@@ -47,3 +47,5 @@ using Swapat
 A = [1, 2, 3]
 swapat!(A, 1, 3)
 # A == [3, 2, 1]
+
+<!-- Benchmark documentation PR -->
